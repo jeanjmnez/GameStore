@@ -4,3 +4,5 @@
 
 /.vs
 /GameStore.Fontend/obj
+/build/
+/GameStore.Fontend/bin
