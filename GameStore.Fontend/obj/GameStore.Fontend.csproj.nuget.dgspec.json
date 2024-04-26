@@ -1,27 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj": {}
+    "D:\\Source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj": {}
   },
   "projects": {
-    "D:\\source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj": {
+    "D:\\Source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj",
+        "projectUniqueName": "D:\\Source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj",
         "projectName": "GameStore.Fontend",
-        "projectPath": "D:\\source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj",
-        "packagesPath": "C:\\Users\\2021022\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\",
+        "projectPath": "D:\\Source\\GameStore\\GameStore.Fontend\\GameStore.Fontend.csproj",
+        "packagesPath": "C:\\Users\\jeans\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\2021022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jeans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "\\\\BCWEBDES\\LocalNugget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

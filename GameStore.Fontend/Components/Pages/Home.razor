@@ -2,8 +2,14 @@
 @using GameStore.Fontend.Clients
 @using Models
 
+
+@inject GamesClient Client
+
 <PageTitle>Game Catalog</PageTitle>
 
+<div class="mt-2">
+    <a class="btn btn-primary" role="button" href="/editgame">New Game</a>
+</div>
 @if (games is null)
 {
     <p> Loading.....</p>
@@ -33,16 +39,9 @@ else
     </table>
 }
 @code {
-    public GamesClient client = new();
-    public GameSummary[]? games;
-
-
+    public GameSummary[] games;
     protected override void OnInitialized()
     {
-
-
-        games = client.GetGames();
-
+        games = Client.GetGames();
     }
-
 }
