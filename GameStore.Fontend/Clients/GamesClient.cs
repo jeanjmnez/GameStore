@@ -59,6 +59,25 @@ namespace GameStore.Fontend.Clients
         }
 
 
+        public GameDetails getGame(int id)
+        {
+            var game = games.Find(game => game.Id == id);
+            ArgumentNullException.ThrowIfNull(game);
 
+            var genre = genres.Single(genre=>string.Equals(
+                genre.Name,
+                game.Genre,
+                StringComparison.OrdinalIgnoreCase));
+
+            return new GameDetails
+            {
+                Id = game.Id,
+                Name = game.Name,
+                GenreId = genre.Id.ToString(),
+                Price = game.Price,
+                ReleaseDate = game.ReleaseDate
+            };
+
+        }
     }
 }
