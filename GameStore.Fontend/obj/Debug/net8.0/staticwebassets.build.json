@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SYcpm8elV43hk+iqbIEDhkEUbSdzflbrYyo6q1IsjSc=",
+  "Hash": "JENHiD+axaoXLAWyzf4VSiB2Df73ZTCFTYmH5E2oo9I=",
   "Source": "GameStore.Fontend",
   "BasePath": "_content/GameStore.Fontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GameStore.Fontend\\wwwroot",
       "Source": "GameStore.Fontend",
-      "ContentRoot": "D:\\source\\GameStore\\GameStore.Fontend\\wwwroot\\",
+      "ContentRoot": "D:\\Source\\GameStore\\GameStore.Fontend\\wwwroot\\",
       "BasePath": "_content/GameStore.Fontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Fontend.styles.css",
+      "Identity": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Fontend.styles.css",
       "SourceId": "GameStore.Fontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GameStore.Fontend",
       "RelativePath": "GameStore.Fontend.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Fontend.styles.css"
+      "OriginalItemSpec": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameStore.Fontend.styles.css"
     },
     {
-      "Identity": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Fontend.bundle.scp.css",
+      "Identity": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Fontend.bundle.scp.css",
       "SourceId": "GameStore.Fontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GameStore.Fontend",
       "RelativePath": "GameStore.Fontend.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Fontend.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Source\\GameStore\\GameStore.Fontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameStore.Fontend.bundle.scp.css"
     },
     {
-      "Identity": "D:\\source\\GameStore\\GameStore.Fontend\\wwwroot\\app.css",
+      "Identity": "D:\\Source\\GameStore\\GameStore.Fontend\\wwwroot\\app.css",
       "SourceId": "GameStore.Fontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\source\\GameStore\\GameStore.Fontend\\wwwroot\\",
+      "ContentRoot": "D:\\Source\\GameStore\\GameStore.Fontend\\wwwroot\\",
       "BasePath": "_content/GameStore.Fontend",
       "RelativePath": "app.css",
       "AssetKind": "All",

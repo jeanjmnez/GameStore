@@ -1,3 +1,4 @@
+using GameStore.Fontend.Clients;
 using GameStore.Fontend.Components;
 
 internal class Program
@@ -8,7 +9,8 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddRazorComponents();
-
+        builder.Services.AddSingleton<GamesClient>();
+        builder.Services.AddSingleton<GenresClient>();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
