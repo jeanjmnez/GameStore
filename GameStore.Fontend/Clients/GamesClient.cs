@@ -17,7 +17,7 @@ namespace GameStore.Fontend.Clients
             },
             new()
             {
-                Id = 1,
+                Id = 2,
                 Name = "Final Fantasy",
                 Genre = "Roleplaying",
                 Price = 69.9M,
@@ -26,7 +26,7 @@ namespace GameStore.Fontend.Clients
             },
             new()
             {
-                Id = 1,
+                Id = 3,
                 Name = "Fifa 23",
                 Genre = "Sports",
                 Price = 69.9M,
@@ -43,8 +43,7 @@ namespace GameStore.Fontend.Clients
 
         public void AddGame(GameDetails game)
         {
-            ArgumentException.ThrowIfNullOrWhiteSpace(game.GenreId); 
-            var genre = genres.Single(genre =>genre.Id == int.Parse(game.GenreId));
+            Genre genre = GetGenreById(game.GenreId);
 
             var gameSummary = new GameSummary
             {
@@ -59,12 +58,12 @@ namespace GameStore.Fontend.Clients
         }
 
 
+
         public GameDetails getGame(int id)
         {
-            var game = games.Find(game => game.Id == id);
-            ArgumentNullException.ThrowIfNull(game);
+            GameSummary? game = GetGameSummaryById(id);
 
-            var genre = genres.Single(genre=>string.Equals(
+            var genre = genres.Single(genre => string.Equals(
                 genre.Name,
                 game.Genre,
                 StringComparison.OrdinalIgnoreCase));
@@ -78,6 +77,25 @@ namespace GameStore.Fontend.Clients
                 ReleaseDate = game.ReleaseDate
             };
 
+        }
+
+        public void UpdateGame(GameDetails game)
+        {
+
+        }
+
+        private GameSummary GetGameSummaryById(int id)
+        {
+            var game = games.Find(game => game.Id == id);
+            ArgumentNullException.ThrowIfNull(game);
+            return game;
+        }
+
+        private Genre GetGenreById(string? id)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(id);
+            var genre = genres.Single(genre => genre.Id == int.Parse(id));
+            return genre;
         }
     }
 }
