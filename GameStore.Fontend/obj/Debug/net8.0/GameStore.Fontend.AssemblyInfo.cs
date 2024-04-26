@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameStore.Fontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+180022bb34bddc001acc550556890f313f535663")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ca048665c960eb337c603f196d4b250fc167872")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameStore.Fontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameStore.Fontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
