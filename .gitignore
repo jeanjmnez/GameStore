@@ -6,3 +6,6 @@
 /GameStore.Fontend/obj
 /build/
 /GameStore.Fontend/bin
+bin
+obj
+packages

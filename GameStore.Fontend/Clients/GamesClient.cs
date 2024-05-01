@@ -57,8 +57,6 @@ namespace GameStore.Fontend.Clients
             games.Add(gameSummary);
         }
 
-
-
         public GameDetails getGame(int id)
         {
             GameSummary? game = GetGameSummaryById(id);
@@ -103,6 +101,12 @@ namespace GameStore.Fontend.Clients
             ArgumentException.ThrowIfNullOrWhiteSpace(id);
             var genre = genres.Single(genre => genre.Id == int.Parse(id));
             return genre;
+        }
+
+        public void DeleteGame(int id)
+        {
+            var game = GetGameSummaryById(id);
+            games.Remove(game); 
         }
     }
 }
