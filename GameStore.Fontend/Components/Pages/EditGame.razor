@@ -101,10 +101,21 @@ else
         try
         {
             ArgumentNullException.ThrowIfNull(game);
-            GameClient.AddGame(game);
+
+            if (Id is null)
+            {
+                GameClient.AddGame(game);
+             
+            }
+            else
+            {
+                game.Id = Id.Value;
+                GameClient.UpdateGame(game);
+            }
             NavigationManager.NavigateTo("/");
         }
         catch (Exception)
+
         {
 
             throw;

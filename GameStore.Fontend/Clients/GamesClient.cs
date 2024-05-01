@@ -79,8 +79,15 @@ namespace GameStore.Fontend.Clients
 
         }
 
-        public void UpdateGame(GameDetails game)
+        public void UpdateGame(GameDetails updatedGame)
         {
+            var genre = GetGenreById(updatedGame.GenreId);
+            GameSummary existingGame = GetGameSummaryById(updatedGame.Id);
+
+            existingGame.Name = updatedGame.Name;
+            existingGame.Genre = genre.Name;
+            existingGame.Price = updatedGame.Price;
+            existingGame.ReleaseDate = updatedGame.ReleaseDate; 
 
         }
 
