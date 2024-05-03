@@ -17,7 +17,7 @@
                  <button type="button" 
                         class="btn btn-primary" 
                         data-bs-dismiss="modal"
-                        @onclick="@Confirm">Delete</button> 
+                        @onclick="@ConfirmAsync">Delete</button> 
             </div>
         </div>
     </div>
@@ -42,13 +42,9 @@
 
     private async Task ConfirmAsync()
     {
-        //await Client.(Game!.Id);
+        await Client.DeleteGameAsync(Game!.Id);
         NavigationManager.Refresh();
     }
 
-    private void Confirm()
-    {
-        Client.DeleteGame(Game!.Id);
-        NavigationManager.Refresh();
-    }
+
 }
